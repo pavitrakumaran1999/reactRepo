@@ -1,0 +1,25 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavitrakumaran1999/reactRepo.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Pavi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavitrakumaran1999/reactRepo/issues"
+  },
+  "homepage": "https://github.com/pavitrakumaran1999/reactRepo#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
