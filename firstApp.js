@@ -1,31 +1,18 @@
-const header= () => {
-    return (
-        <div className="Header">
-        <div className="logo-container">
-            <img 
-                className="logo"
-                src="Users/pavitra-13197Downloads/restaruntLogo.png"
-            />
-        </div>
-        <div classNmae="navigator">
-            <ul>
-                <li>About Us</li>
-                <li>Contact us</li>
-                <li>cart</li>
-            </ul>
-        </div>
-        </div>
-    );
-}
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Body from "./Src/Component/Body";
+import RestaruntCard from "./Src/Component/RestaruntCard";
+import Header from "./Src/Component/Header";
 
 const AppLayout = () => {
     return (
         <div className="app">
             <Header />
+            <Body />
         </div>
     );
 };
 
 const root= ReactDOM.createRoot(document.getElementById("root"));
 
-root.render("AppLayout");
+root.render(<AppLayout />);
