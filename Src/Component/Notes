@@ -1,0 +1,5 @@
+Single Responsibilities Principle
+    If a function/class could have single functioanlaity is called Single Responsibilities Principle 
+Each component (i.e the function) could have single responibilities
+
+Hooks are like utility function

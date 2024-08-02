@@ -1,0 +1,62 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo{
+    width: 100px;
+}
+.navigator{
+   padding : 0px 2px; 
+}
+.navigator > ul {
+    font-size: 18px;
+    display : flex;
+    list-style-type: none;
+}
+
+.navigator > ul >  li{
+    padding : 10px;
+    margin: 20 px;
+}
+
+.filter{
+    padding : 10px;
+    display: flex;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card{
+    margin: 5px;
+    padding : 5px;
+    width: 200px;
+    height: 420px;
+}
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.res-card-logo{
+    width: 100%;
+}
+
+.shimmer-con{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    width: 200px;
+    height: 420px;
+    margin : 5px;
+    padding : 5px;
+    background-color: #f0f0f0;
+}
+
+.search{
+    padding : 5px;
+}

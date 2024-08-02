@@ -28,7 +28,9 @@ import ReactDOM from "react-dom/client";
 
 //const jsxHeading=<h1 id="Head">Js from JSX</h1>
 const Title = () => {
+    return(
      <h1>Title component</h1>
+    )
 };
 
 
